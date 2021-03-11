@@ -1,0 +1,87 @@
+h2{
+	font-weight: bold;
+	margin-bottom: 50px;
+	pointer-events: none;
+}
+
+#jumbotron{
+	padding-top: 50px;
+	background-color: #f8f9fa;
+}
+
+#jumbotron h1 span{
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#jumbotron img{
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+
+
+#jumbotron .o1{
+	order: 2;
+}
+#jumbotron .o2{
+	order: 1;
+}
+
+/*about*/
+
+
+#about img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+
+/*GALLERY*/
+#gallery{
+	margin-top: 100px;
+}
+#gallery img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/*Contact*/
+#contact{
+	margin-top: 100px;
+}
+
+#contact textarea{
+	min-height: 210px;
+	max-height: 210px;
+}
+
+#contact iframe{
+	min-width: 100%;
+	max-width: 100%;
+}
+
+/*FOOTER*/
+
+footer p{
+	font-size: 1.1em;
+}
+
+
+@media (max-width: 768px){
+	#jumbotron .o1{
+		order: 1;
+	}
+	#jumbotron .o2{
+		order: 2;
+		text-align: center;
+	}
+}
+
+@media (max-width: 500px){
+	#about p{
+		text-align: justify;
+	}
+}
